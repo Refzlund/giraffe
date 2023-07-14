@@ -1,0 +1,11 @@
+{
+	"name": "vite-configs",
+	"version": "0.0.0",
+	"description": "",
+	"author": "",
+	"license": "ISC",
+	"type": "module",
+	"exports": {
+		"./vite.config.lib": "./vite.config.lib.ts"
+	}
+}
