@@ -134,6 +134,8 @@
 		- Add [`test`](https://github.com/Refzlund/giraffe/blob/main/.github/workflows/main.yml#L9) to the list of required status checks
 	- Allow force pushes
 		- Specify who can force push <sup>*will allow administrators automatically</sup>
+- Allow workflow **Read and write permissions**<br>`https://github.com/<owner/repo>/settings/actions`
+	- Below ^, tick on '**Allow GitHub Actions to create and approve pull requests**'
 
 <br>
 
