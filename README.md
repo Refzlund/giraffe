@@ -163,11 +163,18 @@ Create a branch following [Semantic Changes](./SEMANTICS.md):  `chore-configur
 ### Changelog!
 Great! We've configured our project. Let's create our first patch release using changeset.
 
-- Create changeset:  `npx changeset`  — patch —  `chore: configurating initial project`
+- Create changeset: 
+	1. `npx changeset`
+	1. Select your package using <kbd>space</kbd>, <kbd>enter</kbd> to continue
+	1. No major changes
+	1. No minor changes
+	1. Patch — `chore: configurating initial project`
 - Push your changes
 - Create pull request on the main branch for `chore-configurating-initial-project`
 	- Title: `chore: configurating initial project`
 - ***Squash & Merge changes***
+
+When you're ready to publish a new release, merge the incoming "Version Packages"-pull request by changesets.
 
 <br>
 
