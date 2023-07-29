@@ -151,7 +151,7 @@ Create a branch following [Semantic Changes](./SEMANTICS.md):  `chore-configur
 ### Configure your library
 - Find & Replace `<repo>` with your repository
 	- Example: `<repo>` -> `x-classes`
-- Find & Replace `<repo/owner>` with your owner/repository
+- Find & Replace `<owner/repo>` with your owner/repository
 	- Example: `<owner/repo>` -> `refzlund/x-classes`
 - Rename `packages/template` to `<repo>`, ex. -> `packages/x-classes`
 - Configure your `packages/<repo>/package.json`
@@ -162,6 +162,8 @@ Create a branch following [Semantic Changes](./SEMANTICS.md):  `chore-configur
 
 ### Changelog!
 Great! We've configured our project. Let's create our first patch release using changeset.
+
+`pnpm i`
 
 - Create changeset: 
 	1. `npx changeset`
@@ -189,7 +191,8 @@ See [Development](./DEVELOPMENT.md)
 <br>
 
 ### Community tips & tricks
-> **Note** Pull requests and issues to this repository are more than welcome🦒
+> [!NOTE]  
+> Pull requests and issues to this repository are more than welcome🦒
 
 - [Shield.io](https://shields.io/): Spice up your README.md using badges
 	- [GitHub Release badge](https://shields.io/badges/git-hub-release-with-filter)
